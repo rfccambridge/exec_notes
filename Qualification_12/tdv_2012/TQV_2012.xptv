@@ -1,0 +1,298 @@
+<pitivi formatter="etree" version="0.1">
+  <export-settings aencoder="lame" audiochannels="2" audiodepth="16" audiorate="44100" muxer="avimux" render-scale="100" vencoder="x264enc" videoheight="720" videopar-denom="1" videopar-num="1" videorate-denom="1" videorate-num="15" videowidth="1280" />
+  <metadata author="Lisa" name="RFC Cambridge TQV" year="2012" />
+  <factories>
+    <sources>
+      <source default_duration="715882666666" duration="715882666666" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/gatech.mp4" id="0" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, rate=(int)48000, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="1" name="src1" type="pitivi.stream.AudioStream" />
+          <stream caps="video/x-raw-yuv, width=(int)720, height=(int)480, framerate=(fraction)30000/1001, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)10/11" id="2" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="10426000000" duration="10426000000" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/animoto_360p.mp4" id="3" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, width=(int)640, height=(int)360, framerate=(fraction)15/1, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)1/1" id="4" name="src0" type="pitivi.stream.VideoStream" />
+          <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="5" name="src1" type="pitivi.stream.AudioStream" />
+        </output-streams>
+      </source>
+      <source default_duration="9334000000" duration="9334000000" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/other_header.mp4" id="6" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="7" name="src1" type="pitivi.stream.AudioStream" />
+          <stream caps="video/x-raw-yuv, width=(int)432, height=(int)240, framerate=(fraction)15/1, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)1/1" id="8" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="10426000000" duration="10426000000" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/1_unedited_min.mp4" id="9" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, width=(int)432, height=(int)240, framerate=(fraction)15/1, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)1/1" id="10" name="src0" type="pitivi.stream.VideoStream" />
+          <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="11" name="src1" type="pitivi.stream.AudioStream" />
+        </output-streams>
+      </source>
+      <source default_duration="758101333333" duration="758101333333" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/practice.mp4" id="12" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, rate=(int)48000, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="13" name="src1" type="pitivi.stream.AudioStream" />
+          <stream caps="video/x-raw-yuv, width=(int)720, height=(int)480, framerate=(fraction)30000/1001, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)10/11" id="14" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="249245000000" duration="249245000000" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/class_highlights.mp4" id="15" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="video/x-raw-yuv, width=(int)480, height=(int)360, framerate=(fraction)1000/33, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)1/1" id="16" name="src0" type="pitivi.stream.VideoStream" />
+          <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="17" name="src1" type="pitivi.stream.AudioStream" />
+        </output-streams>
+      </source>
+      <source default_duration="9869000000" duration="9869000000" filename="file:///home/lisa/Desktop/MIT/robocup/tdv_2012/2012_ending.mp4" id="18" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2, signed=(boolean)true, endianness=(int)1234, width=(int)16, depth=(int)16" id="19" name="src1" type="pitivi.stream.AudioStream" />
+          <stream caps="video/x-raw-yuv, width=(int)432, height=(int)240, framerate=(fraction)15/1, format=(fourcc)I420, interlaced=(boolean)false, pixel-aspect-ratio=(fraction)1/1" id="20" name="src0" type="pitivi.stream.VideoStream" />
+        </output-streams>
+      </source>
+      <source default_duration="579552625000" duration="579552625000" filename="file:///home/lisa/Downloads/Techno%20music.mp3" id="21" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, endianness=(int)1234, signed=(boolean)true, width=(int)32, depth=(int)32, rate=(int)44100, channels=(int)2" id="22" name="src0" type="pitivi.stream.AudioStream" />
+        </output-streams>
+      </source>
+      <source default_duration="579552653061" duration="579552653061" filename="file:///home/lisa/Downloads/Techno%20music%20(1).mp3" id="23" type="pitivi.factories.file.FileSourceFactory">
+        <input-streams />
+        <output-streams>
+          <stream caps="audio/x-raw-int, endianness=(int)1234, signed=(boolean)true, width=(int)32, depth=(int)32, rate=(int)44100, channels=(int)2" id="24" name="src0" type="pitivi.stream.AudioStream" />
+        </output-streams>
+      </source>
+    </sources>
+  </factories>
+  <timeline>
+    <tracks>
+      <track>
+        <stream caps="video/x-raw-yuv, width=(int)1280, height=(int)720, pixel-aspect-ratio=(fraction)1/1, framerate=(fraction)15/1, format=(fourcc){ I420, YV12 }" id="25" name="None" type="pitivi.stream.VideoStream" />
+        <track-objects>
+          <track-object active="(bool)True" duration="(gint64)6573730966" id="26" in_point="(gint64)0" media_duration="(gint64)6573730966" priority="(int)0" start="(gint64)0" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="3" />
+            <stream-ref id="4" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)4512974054" id="27" in_point="(gint64)2984959217" media_duration="(gint64)4512974054" priority="(int)0" start="(gint64)5863312747" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="9" />
+            <stream-ref id="10" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)83182980307" id="28" in_point="(gint64)544102655383" media_duration="(gint64)83182980307" priority="(int)0" start="(gint64)9772187912" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="0" />
+            <stream-ref id="2" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <keyframe mode="2" time="-6826566773" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)2619773739" id="29" in_point="(gint64)3127100132" media_duration="(gint64)2619773739" priority="(int)0" start="(gint64)92498200496" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="6" />
+            <stream-ref id="8" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)1.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)23058502669" id="30" in_point="(gint64)152563894364" media_duration="(gint64)23058502669" priority="(int)0" start="(gint64)95117974235" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="12" />
+            <stream-ref id="14" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <keyframe mode="2" time="172905746945" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)13650098955" id="31" in_point="(gint64)15237796243" media_duration="(gint64)13650098955" priority="(int)0" start="(gint64)116848136235" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="15" />
+            <stream-ref id="16" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <keyframe mode="2" time="18280288178" value="(gdouble)1.0" />
+                <keyframe mode="2" time="26996616427" value="(gdouble)1.0" />
+                <keyframe mode="2" time="28065600080" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)5427147778" id="32" in_point="(gint64)0" media_duration="(gint64)5427147778" priority="(int)0" start="(gint64)130498235190" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="18" />
+            <stream-ref id="20" />
+            <curves>
+              <curve property="alpha" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <keyframe mode="2" time="3700328029" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+        </track-objects>
+      </track>
+      <track>
+        <stream caps="audio/x-raw-int, rate=(int)44100, channels=(int)2; audio/x-raw-float, rate=(int)44100, channels=(int)2" id="33" name="None" type="pitivi.stream.AudioStream" />
+        <track-objects>
+          <track-object active="(bool)True" duration="(gint64)135925382968" id="34" in_point="(gint64)0" media_duration="(gint64)135925382968" priority="(int)1" start="(gint64)0" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="23" />
+            <stream-ref id="24" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)1.0" />
+                <keyframe mode="2" time="130334626576" value="(gdouble)1.1666666666666665" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)6573730966" id="35" in_point="(gint64)0" media_duration="(gint64)6573730966" priority="(int)0" start="(gint64)0" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="3" />
+            <stream-ref id="5" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)4512974054" id="36" in_point="(gint64)2984959217" media_duration="(gint64)4512974054" priority="(int)0" start="(gint64)5863312747" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="9" />
+            <stream-ref id="11" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)83182980307" id="37" in_point="(gint64)544102655383" media_duration="(gint64)83182980307" priority="(int)0" start="(gint64)9772187912" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="0" />
+            <stream-ref id="1" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <keyframe mode="2" time="-6826566773" value="(gdouble)1.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)2619773739" id="38" in_point="(gint64)3127100132" media_duration="(gint64)2619773739" priority="(int)0" start="(gint64)92498200496" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="6" />
+            <stream-ref id="7" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)23058502669" id="39" in_point="(gint64)152563894364" media_duration="(gint64)23058502669" priority="(int)0" start="(gint64)95117974235" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="12" />
+            <stream-ref id="13" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)13650098955" id="40" in_point="(gint64)15237796243" media_duration="(gint64)13650098955" priority="(int)0" start="(gint64)116848136235" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="15" />
+            <stream-ref id="17" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+          <track-object active="(bool)True" duration="(gint64)5427147778" id="41" in_point="(gint64)0" media_duration="(gint64)5427147778" priority="(int)0" start="(gint64)130498235190" type="pitivi.timeline.track.SourceTrackObject">
+            <factory-ref id="18" />
+            <stream-ref id="19" />
+            <curves>
+              <curve property="volume" type="gdouble" version="1">
+                <start mode="2" value="(gdouble)0.0" />
+                <end mode="2" value="(gdouble)0.0" />
+              </curve>
+            </curves>
+          </track-object>
+        </track-objects>
+      </track>
+    </tracks>
+    <timeline-objects>
+      <timeline-object>
+        <factory-ref id="23" />
+        <track-object-refs>
+          <track-object-ref id="34" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="3" />
+        <track-object-refs>
+          <track-object-ref id="35" />
+          <track-object-ref id="26" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="9" />
+        <track-object-refs>
+          <track-object-ref id="27" />
+          <track-object-ref id="36" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="0" />
+        <track-object-refs>
+          <track-object-ref id="37" />
+          <track-object-ref id="28" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="6" />
+        <track-object-refs>
+          <track-object-ref id="38" />
+          <track-object-ref id="29" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="12" />
+        <track-object-refs>
+          <track-object-ref id="39" />
+          <track-object-ref id="30" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="15" />
+        <track-object-refs>
+          <track-object-ref id="31" />
+          <track-object-ref id="40" />
+        </track-object-refs>
+      </timeline-object>
+      <timeline-object>
+        <factory-ref id="18" />
+        <track-object-refs>
+          <track-object-ref id="41" />
+          <track-object-ref id="32" />
+        </track-object-refs>
+      </timeline-object>
+    </timeline-objects>
+  </timeline>
+</pitivi>
